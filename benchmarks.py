@@ -43,7 +43,7 @@ import export
 from models.experimental import attempt_load
 from models.yolo import SegmentationModel
 from segment.val import run as val_seg
-from utils import notebook_init
+from utilities import notebook_init
 from utilities.general import LOGGER, check_yaml, file_size, print_args
 from utilities.torch_utils import select_device
 from val import run as val_det
